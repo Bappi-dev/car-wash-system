@@ -20,7 +20,7 @@ const features = [
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-[#192f62] text-white">
+    <section className="relative overflow-hidden container mx-auto my-4 rounded-2xl bg-[#192f62] text-white">
       <div
         aria-hidden="true"
         className="absolute inset-0 opacity-20"
