@@ -146,6 +146,13 @@
   }
 }
 
+.vertical-copy {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-orientation: mixed;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {
     animation: none;

@@ -25,7 +25,7 @@ const Merquee = () => {
   return (
     <section
       aria-label="Car wash benefits"
-      className="overflow-hidden border-y container mx-auto rounded-md border-slate-200  py-1 bg-amber-100"
+      className="overflow-hidden border-y container mx-auto rounded-md border-slate-200  py-1 bg-orange-200"
     >
         <MarqueeText className="cursor-pointer"   direction="right" duration={9} pauseOnHover={true}>
      

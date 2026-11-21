@@ -18,7 +18,7 @@ const Header = async () => {
   });
 
   return (
-    <header className="border-r-2 border-amber-400 bg-[#192f62] text-white">
+    <header className="border-r-2 sticky top-0 z-50 border-amber-400 bg-[#192f62] text-white">
       <nav
         aria-label="Main"
         className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8"
