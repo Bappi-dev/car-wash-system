@@ -32,7 +32,7 @@ const CAR_WASH_THUMBS = [
 
 export default function CarWashPromoBanner() {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-8 sm:py-12">
+    <section className="mx-auto w-full max-w-7xl px-4 py-15 sm:py-12">
       <div className="relative overflow-hidden rounded-3xl border border-[#2A2A2A] bg-[#121212] text-white shadow-2xl">
      
         <div

@@ -10,6 +10,9 @@ import {
 } from "@/components/ui/sidebar";
 import DashboardSidebar from "@/components/dashboardUser/DashboardSidebar";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import Navbar from "@/components/sheard/Navbar";
+import Header from "@/components/sheard/Header";
+import { Toaster } from "@/components/ui/toast";
 
 const DashboardLayout = async ({
   children,
@@ -31,6 +34,7 @@ const DashboardLayout = async ({
 
   return (
     <TooltipProvider>
+      <Toaster />
       <SidebarProvider>
         <DashboardSidebar user={user} />
         <SidebarInset>
@@ -39,7 +43,8 @@ const DashboardLayout = async ({
             <SidebarSeparator orientation="vertical" className="h-4" />
             <p className="text-sm font-medium">Dashboard</p>
           </header>
-          <main className="min-w-0 flex-1 p-4 md:p-8">{children}</main>
+          <main className="min-w-0 flex-1 p-4 md:p-8">
+            {children}</main>
         </SidebarInset>
       </SidebarProvider>
     </TooltipProvider>
